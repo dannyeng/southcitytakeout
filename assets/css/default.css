@@ -1,0 +1,548 @@
+/*
+
+	01. Generals Settings
+	02. Header Section Settings
+	03. Container Section Settings
+		03.1 Section Hero
+		03.2 Section About
+		03.3 Section Image
+		03.4 Section Menu
+		03.5 Section Reservations
+		03.6 Testimonials
+		03.7 Special Offers
+		03.8 Contact
+	04. Footer Section Settings
+	05. Helper Styles
+	06. Media Queries for Mobile and Tablets Settings
+			
+*/
+
+
+/* 01. GENERALS SETTINGS ================================================== */
+
+body {
+	color: #222;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.75;
+}
+.navbar-brand img {
+	max-width: 150px;
+	height: auto;
+}
+
+/* Common Styles */
+.section {
+	padding: 100px 0 140px;
+}
+
+
+.section-overlay {
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+h2.section-heading {
+    color: #444;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 auto 40px;
+}
+h2.section-heading::after {
+    border-bottom: 3px solid #B79B78;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 100px;
+}
+
+
+.btn-action {
+	background-color: #B79A78;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	padding: 16px 16px;
+}
+.btn-action:hover {
+	background-color: #AC8B64;
+	color: #F1ECE4;
+}
+
+
+a, .btn, .transition-03 {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+textarea { min-height: 120px }
+
+
+/* 02. Header Section Settings ================================================== */
+
+/* Navbar */
+.navbar-btn {
+	background: #333;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+	color: #fff;
+	font-size: 14px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+}
+.navbar-btn:hover, .navbar-btn:focus {
+	background: #B79B78;
+	color: #fff;
+}
+
+
+
+
+/* 03. Container Section Settings ================================================== */
+
+/* 03.1 Section Hero */
+.section-hero {
+	background-image: url(../images/hero.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	color: #fff;
+	
+	padding: 0;
+	
+	width: 100%;
+	height: 830px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.section-hero .welcome {
+	color: #B79B78;
+	
+	font-family: 'Merriweather', "Times New Roman", Times, serif;
+	font-size: 70px;
+	font-style: italic;
+}
+.section-hero h1 {
+	font-size: 70px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.section-hero p.description {
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+.btn-hero {
+	background: none;
+	border: solid 3px #fff;
+	
+	color: #fff;	
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	padding: 20px 60px;
+}
+.btn-hero:hover, .btn-hero:focus {
+	background: #fff;
+	border: solid 3px #fff;
+	color: #333;
+}
+
+
+
+
+/* 03.2 Section About */
+.section-about h3 {
+	font-family: 'Merriweather', "Times New Roman", Times, serif;
+	font-size: 48px;
+	font-weight: 600;
+	margin: 0 0 38px 0;
+}
+.section-about h3::after {
+    border-bottom: 3px solid #B79B78;
+    content: "";
+    display: block;
+    padding-bottom: 20px;
+    width: 100px;
+}
+.section-about .sub-heading {
+	color: #B79B78;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.section-about p {
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+.section-about p.first-paragraph {
+	font-size: 20px;
+	font-weight: 600;
+	color: #222;
+}
+.chef-mosaic {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/* 03.3 Section Image */
+.section-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	color: #fff !important;
+	font-size: 32px;
+	
+	padding: 0;
+	
+	width: 100%;
+	height: 640px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.section-image .section-overlay {
+	background-color: rgba(0,0,0,0.6);
+}
+.section-image .section-heading { color: #fff; }
+.section-image .section-heading::after { border-color: #fff; }
+
+.image-pasta { background-image: url(../images/pasta-bg.jpg); }
+.image-pizza { background-image: url(../images/pizza-bg.jpg); }
+.image-cake { background-image: url(../images/cake-bg.jpg); }
+
+
+
+/* 03.4 Section Menu */
+.categories li { margin: 0 5px; }
+.categories a {
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #888;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 4px 14px;
+}
+.categories a:hover, .categories a.active {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.product-category {
+	color: #B79A78;
+	font-size: 22px;
+	font-weight: 600;
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+.product-item {
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+.product-item h5 {
+	color: #222;
+	font-size: 16px;
+	font-weight: 600;
+	
+	padding-right: 20px;
+}
+.product-item h5 span {
+}
+.product-item p {
+	color: #555;
+	font-size: 15px;
+	max-width: 75%;
+}
+
+
+
+
+/* 03.5 Section Reservations */
+.section-reservations {
+	background-image: url(../images/pattern-wood.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	padding: 0;
+	
+	width: 100%;
+	height: 700px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.reservations-holder {
+	background-image: url(https://placeholdit.imgix.net/~text?txtsize=38&txt=600%C3%97664&w=600&h=664);
+	background-position: right center;
+	
+	box-shadow: 0px 0px 15px #000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.reservations-form h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.reservations-form {
+	background-color: #fff;
+	padding: 50px 70px;
+}
+
+.reservations-form .title-description {
+	color: #777;
+	font-size: 15px;
+	font-weight: 600;
+	padding-bottom: 25px;
+}
+.reservations-form .title-description strong {
+	color: #B79A78
+}
+
+
+
+/* 03.6 Testimonials */
+.section-testimonials {
+	padding-top: 0;
+}
+.quote {
+	font-family: 'Merriweather', "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: italic;
+}
+.quote-author {
+	font-size: 16px;
+}
+.quote-thumbnail {
+	border: solid 3px #B79B78;
+	margin: 10px auto;
+	height: 86px;
+	width: 86px !important;
+}
+
+
+
+/* 03.7 Special Offers */
+.section-offers {
+	height: auto !important;
+	color: #333 !important;
+	font-size: 15px;
+}
+.section-offers .section-overlay {
+	padding: 100px 0;
+}
+.container-offers {
+	background: #fff;
+	padding: 70px;
+}
+
+.image-offer {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border: solid 1px #B79B78;
+}
+
+.section-offers h2 {
+	font-family: 'Merriweather', "Times New Roman", Times, serif;
+	font-size: 48px;
+	font-weight: normal;
+	margin: 0 0 38px 0;
+}
+.section-offers h2::after {
+    border-bottom: 2px solid #B79B78;
+    content: "";
+    display: block;
+    padding-bottom: 20px;
+    width: 100px;
+		margin: 0 auto;
+}
+.list-offers li {
+	padding-bottom: 15px;
+}
+.list-offers h4 {
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.list-offers h4 span {
+	float: right;
+	margin-right: 20%;
+	color: #B79B78
+}
+.list-offers p {
+	width: 75%;
+}
+
+
+
+
+
+/* 03.8 Contact */
+.section-contact .social {
+	padding: 20px 0 0px 0;
+}
+
+.section-contact .social li {
+	display: inline-block;
+	padding: 0 10px;
+}
+.section-contact .social li a { 
+	display: block; 
+	width: 32px; 
+	height: 32px;
+	position: relative;
+}
+
+.section-contact .social img { 
+	width: 32px;
+	position: absolute;
+	left: 0	;
+}
+.section-contact .sub-heading {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.contact-details {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.contact-details h4 {
+	color: #B79B78 !important;
+	font-size: 16px;
+}
+.contact-details .glyph-item.mega {
+	color: #333;
+	font-size: 4em; 
+}
+
+
+
+
+/* 04. Footer Section Settings ================================================== */
+/* Footer */
+footer {
+	background: #f7f7f7;
+	border-top: solid 1px #eee;
+	padding: 30px 0;
+}
+
+
+
+
+
+/* 05. Helper Styles ================================================== */
+/* Helpers */
+.vertical-center {
+	position: relative;
+  top: 50%; 
+	-webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	z-index: 10;
+}
+
+.fade-item { opacity: 0; }
+
+/* warp speed ahead */
+.animClass {
+	-webkit-transform: translate3d(0, 0, 0);
+   -moz-transform: translate3d(0, 0, 0);
+   -ms-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+  /* Other transform properties here */
+}
+
+
+
+
+/* 06. Media Queries for Mobile and Tablets Settings ================================================== */
+@media only screen 
+  and (max-width: 1024px) {
+	.section-hero, .section-reservations, .section-image { padding: 0 !important; background-attachment: scroll }
+	
+	.product-item p { max-width: 100%; }
+	
+	.reservations-form { padding: 40px 20px; }
+	
+	.list-offers h4 span { margin-right: 0; }
+	.list-offers p { width: 100%; padding-right: 20px }
+	.image-offer { border: solid 2px #B79B78; padding: 2px; }
+}
+
+
+
+@media only screen 
+  and (max-width: 480px) {
+	.section { padding: 50px 0 70px; }
+
+	.section-hero, .section-reservations, .section-image { padding: 0 !important; background-attachment: scroll }
+	
+	.section-hero { height: 600px }
+	.section-hero .welcome { font-size: 40px; }
+	.section-hero h1 { font-size: 30px; }
+	.section-hero p.description { font-size: 16px; }
+	
+	.btn-hero { border: solid 3px #fff; font-size: 18px; padding: 14px 30px; }
+	
+	.section-image { font-size: 14px; height: 300px }
+	
+	
+	.product-item p { max-width: 100%; }
+	
+	.reservations-holder { margin-left: 0; margin-right: 0 }
+	.reservations-form { padding: 40px 20px; }
+	
+	.quote { font-size: 16px }
+	
+	.container-offers { padding: 40px 20px }
+	.section-offers h2 { font-size: 32px }
+	.section-offers .section-overlay { padding: 50px 20px }
+	.list-offers p { width: 100%; } 
+	.image-offer { border: solid 2px #B79B78; padding: 2px; }
+}
+

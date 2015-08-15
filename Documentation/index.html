@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Responsive Restaurant Site Template&rdquo; Documentation by &ldquo;Andrei Nastasa&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Responsive Restaurant Site Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 13/06/2015<br>
+					By: Andrei Nastasa<br>
+					Email: <a href="mailto:contact@andreinastasa.com">contact@andreinastasa.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://creativemarket.com/anastasa">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#subscription">Subscription Form</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			
+			<li><a href="#">PHP Code Explanation</a> <em class="quiet small">(If your theme uses PHP)</em></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This is a one page landing page. All of the information within the main content area is nested within a div with an id of "primaryContent". 
+    
+     The general template structure is the same throughout the template. Here is 
+    the general structure.</p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>The first CSS file, <strong>default.css</strong> contains all the specific styles for this page. It also displays a table of contents at the top like this:</p> 
+
+<pre>	
+/*
+
+	01. Generals Settings
+	02. Header Section Settings
+	03. Container Section Settings
+		03.1 Section Hero
+		03.2 Section About
+		03.3 Section Image
+		03.4 Section Menu
+		03.5 Section Reservations
+		03.6 Testimonials
+		03.7 Special Offers
+		03.8 Contact
+	04. Footer Section Settings
+	05. Helper Styles
+	06. Media Queries for Mobile and Tablets Settings
+			
+*/
+</pre>	
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<p>There are additional css files, each specific to a different plugin or framework used for this plugin.</p>
+    
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports four Javascript files.</p>
+		
+		<ol>
+			<li><a href="https://jquery.com/">jQuery</a></li>
+			<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+      <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery easing</a></li>
+      <li><a href="https://github.com/inuyaksa/jquery.nicescroll">jQuery nicescroll</a></li>
+      <li><a href="http://owlcarousel.owlgraphic.com/">Owl Carousel</a></li>
+			<li>My custom scripts</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+      <li>script.js contains the custom scripts needed for this page: Fading effects for the top part, email verification for subscription etc.</li>
+		</ol>
+		
+	
+		<hr>
+    
+    <h3 id="subscription"><strong>D) Subscription Form</strong> - <a href="#toc">top</a></h3>
+		
+		
+		<p>For using it, you'll have to add your email address in <strong>contact.php</strong> and <strong>book.php</strong> file, on line 3.
+		
+<pre>
+$EmailFrom = "no-reply@example.com"; // replace with your domain address
+$EmailTo = array ( "mail@example.com"); // your email address, where to receive new subscriptions
+</pre>
+    
+    <hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li>Bootstrap Framework - <a target="_blank" href="http://getbootstrap.com/">http://www.getbootstrap.com</a></li>
+			<li>Simple Line Icons Webfont - <a target="_blank" href="http://graphicburger.com/simple-line-icons-webfont/">http://graphicburger.com/simple-line-icons-webfont/</a></li>
+      <li>Wood Pattern Background - <a href="http://graphicburger.com/6-vintage-wood-textures-vol-4/" target="_blank">http://graphicburger.com/6-vintage-wood-textures-vol-4/</a></li>
+		</ul>
+    
+    <p>For the preview example, I used licensed images bought from <a href="http://photodune.net/?ref=iky" target="_blank">photodune.net</a> and <a href="https://eu.fotolia.com/partner/205634961" target="_blank">fotolia.com</a>. These images are not included for your purchase and you need to buy a license for these items, if you want to use them.</p>
+    <ul>
+    	<li>Hero Image - <a href="http://photodune.net/item/italian-food-background/6114006?ref=iky" target="_blank">http://photodune.net/item/italian-food-background/6114006</a></li>
+    	<li>Table Reservation Form - <a href="https://eu.fotolia.com/id/75366819?205634961" target="_blank">https://eu.fotolia.com/id/75366819?205634961</a></li>
+    	<li>Chef Section - <a href="https://eu.fotolia.com/id/56353263?205634961" target="_blank">https://eu.fotolia.com/id/56353263</a></li>
+    	<li>Spagetti Image - <a href="https://eu.fotolia.com/id/79171964?205634961" target="_blank">https://eu.fotolia.com/id/79171964</a></li>
+    	<li>Lasagna Image - <a href="https://eu.fotolia.com/id/80811836?205634961" target="_blank">https://eu.fotolia.com/id/80811836</a></li>
+    	<li>Bruschetta Image - <a href="https://eu.fotolia.com/id/62743914?205634961" target="_blank">https://eu.fotolia.com/id/62743914</a></li>
+    	<li>Bruschetta Image 2 - <a href="https://eu.fotolia.com/id/67231638?205634961" target="_blank">https://eu.fotolia.com/id/67231638</a></li>
+    	<li>Pasta Image - <a href="https://eu.fotolia.com/id/64976600?205634961" target="_blank">https://eu.fotolia.com/id/64976600</a></li>
+    	<li>Pizza Image - <a href="https://eu.fotolia.com/id/80180913?205634961" target="_blank">https://eu.fotolia.com/id/80180913</a></li>
+    	<li>Chocolate Desert Image - <a href="https://eu.fotolia.com/id/83605184?205634961" target="_blank">https://eu.fotolia.com/id/83605184</a></li>
+    	<li>Testimonial Author - <a href="http://photodune.net/item/handsome-guy/6671086?ref=iky" target="_blank">http://photodune.net/item/handsome-guy/6671086</a></li>
+    </ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>Your Name</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
