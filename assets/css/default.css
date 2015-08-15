@@ -30,6 +30,10 @@ body {
 	max-width: 150px;
 	height: auto;
 }
+.nav-logo{
+	font-size: 1.6em;
+	font-weight: bold;
+}
 
 /* Common Styles */
 .section {
