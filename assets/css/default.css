@@ -126,7 +126,6 @@ textarea { min-height: 120px }
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
 	
 	color: #fff;
 	
@@ -222,7 +221,6 @@ textarea { min-height: 120px }
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
 	
 	color: #fff !important;
 	font-size: 32px;
@@ -301,7 +299,6 @@ textarea { min-height: 120px }
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
 	
 	padding: 0;
 	
@@ -507,7 +504,7 @@ footer {
 /* 06. Media Queries for Mobile and Tablets Settings ================================================== */
 @media only screen 
   and (max-width: 1024px) {
-	.section-hero, .section-reservations, .section-image { padding: 0 !important; background-attachment: scroll }
+	.section-hero, .section-reservations, .section-image { padding: 0 !important; }
 	
 	.product-item p { max-width: 100%; }
 	
@@ -524,7 +521,7 @@ footer {
   and (max-width: 480px) {
 	.section { padding: 50px 0 70px; }
 
-	.section-hero, .section-reservations, .section-image { padding: 0 !important; background-attachment: scroll }
+	.section-hero, .section-reservations, .section-image { padding: 0 !important;}
 	
 	.section-hero { height: 600px }
 	.section-hero .welcome { font-size: 40px; }
