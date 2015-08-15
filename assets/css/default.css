@@ -118,7 +118,7 @@ textarea { min-height: 120px }
 
 /* 03.1 Section Hero */
 .section-hero {
-	background-image: url(../images/hero.jpg);
+	background-image: url(../images/1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -237,9 +237,9 @@ textarea { min-height: 120px }
 .section-image .section-heading { color: #fff; }
 .section-image .section-heading::after { border-color: #fff; }
 
-.image-pasta { background-image: url(../images/pasta-bg.jpg); }
-.image-pizza { background-image: url(../images/pizza-bg.jpg); }
-.image-cake { background-image: url(../images/cake-bg.jpg); }
+.image-pasta { background-image: url(../images/2.jpg); }
+.image-pizza { background-image: url(../images/2.jpg); }
+.image-cake { background-image: url(../images/2.jpg); }
 
 
 
