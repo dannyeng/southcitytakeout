@@ -14,7 +14,8 @@
 	04. Footer Section Settings
 	05. Helper Styles
 	06. Media Queries for Mobile and Tablets Settings
-			
+  07. Hotfixes
+
 */
 
 
@@ -72,7 +73,7 @@ h2.section-heading::after {
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	
+
 	padding: 16px 16px;
 }
 .btn-action:hover {
@@ -100,12 +101,12 @@ textarea { min-height: 120px }
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 	border-radius: 20px;
-	
+
 	color: #fff;
 	font-size: 14px !important;
 	font-weight: bold;
 	text-transform: uppercase;
-	
+
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-left: 20px;
@@ -126,11 +127,11 @@ textarea { min-height: 120px }
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 	color: #fff;
-	
+
 	padding: 0;
-	
+
 	width: 100%;
 	height: 830px;
 	position: relative;
@@ -140,7 +141,7 @@ textarea { min-height: 120px }
 
 .section-hero .welcome {
 	color: #B79B78;
-	
+
 	font-family: 'Merriweather', "Times New Roman", Times, serif;
 	font-size: 70px;
 	font-style: italic;
@@ -159,12 +160,12 @@ textarea { min-height: 120px }
 .btn-hero {
 	background: none;
 	border: solid 3px #fff;
-	
-	color: #fff;	
+
+	color: #fff;
 	font-size: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
-	
+
 	padding: 20px 60px;
 }
 .btn-hero:hover, .btn-hero:focus {
@@ -221,12 +222,12 @@ textarea { min-height: 120px }
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 	color: #fff !important;
 	font-size: 32px;
-	
+
 	padding: 0;
-	
+
 	width: 100%;
 	height: 640px;
 	position: relative;
@@ -279,7 +280,7 @@ textarea { min-height: 120px }
 	color: #222;
 	font-size: 16px;
 	font-weight: 600;
-	
+
 	padding-right: 20px;
 }
 .product-item h5 span {
@@ -299,9 +300,9 @@ textarea { min-height: 120px }
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 	padding: 0;
-	
+
 	width: 100%;
 	height: 700px;
 	position: relative;
@@ -312,7 +313,7 @@ textarea { min-height: 120px }
 .reservations-holder {
 	background-image: url(https://placeholdit.imgix.net/~text?txtsize=38&txt=600%C3%97664&w=600&h=664);
 	background-position: right center;
-	
+
 	box-shadow: 0px 0px 15px #000;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -426,14 +427,14 @@ textarea { min-height: 120px }
 	display: inline-block;
 	padding: 0 10px;
 }
-.section-contact .social li a { 
-	display: block; 
-	width: 32px; 
+.section-contact .social li a {
+	display: block;
+	width: 32px;
 	height: 32px;
 	position: relative;
 }
 
-.section-contact .social img { 
+.section-contact .social img {
 	width: 32px;
 	position: absolute;
 	left: 0	;
@@ -458,7 +459,7 @@ textarea { min-height: 120px }
 }
 .contact-details .glyph-item.mega {
 	color: #333;
-	font-size: 4em; 
+	font-size: 4em;
 }
 
 
@@ -480,7 +481,7 @@ footer {
 /* Helpers */
 .vertical-center {
 	position: relative;
-  top: 50%; 
+  top: 50%;
 	-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -502,14 +503,14 @@ footer {
 
 
 /* 06. Media Queries for Mobile and Tablets Settings ================================================== */
-@media only screen 
+@media only screen
   and (max-width: 1024px) {
 	.section-hero, .section-reservations, .section-image { padding: 0 !important; }
-	
+
 	.product-item p { max-width: 100%; }
-	
+
 	.reservations-form { padding: 40px 20px; }
-	
+
 	.list-offers h4 span { margin-right: 0; }
 	.list-offers p { width: 100%; padding-right: 20px }
 	.image-offer { border: solid 2px #B79B78; padding: 2px; }
@@ -517,33 +518,45 @@ footer {
 
 
 
-@media only screen 
+@media only screen
   and (max-width: 480px) {
 	.section { padding: 50px 0 70px; }
 
 	.section-hero, .section-reservations, .section-image { padding: 0 !important;}
-	
+
 	.section-hero { height: 600px }
 	.section-hero .welcome { font-size: 40px; }
 	.section-hero h1 { font-size: 30px; }
 	.section-hero p.description { font-size: 16px; }
-	
+
 	.btn-hero { border: solid 3px #fff; font-size: 18px; padding: 14px 30px; }
-	
+
 	.section-image { font-size: 14px; height: 300px }
-	
-	
+
+
 	.product-item p { max-width: 100%; }
-	
+
 	.reservations-holder { margin-left: 0; margin-right: 0 }
 	.reservations-form { padding: 40px 20px; }
-	
+
 	.quote { font-size: 16px }
-	
+
 	.container-offers { padding: 40px 20px }
 	.section-offers h2 { font-size: 32px }
 	.section-offers .section-overlay { padding: 50px 20px }
-	.list-offers p { width: 100%; } 
+	.list-offers p { width: 100%; }
 	.image-offer { border: solid 2px #B79B78; padding: 2px; }
 }
 
+/* 07. Hotfixes ================================================== */
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container{
+    .row{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
