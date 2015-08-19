@@ -36,6 +36,12 @@ body {
 	font-weight: bold;
 }
 
+.order-now{
+	margin-top: -25px;
+	margin-bottom: -20px;
+	margin-left: -15px;
+}
+
 /* Common Styles */
 .section {
 	padding: 100px 0 140px;
