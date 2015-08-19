@@ -426,6 +426,10 @@ textarea { min-height: 120px }
 
 
 /* 03.8 Contact */
+.section-contact {
+	padding-bottom: 30px;
+}
+
 .section-contact .social {
 	padding: 20px 0 0px 0;
 }
