@@ -246,7 +246,7 @@ textarea { min-height: 120px }
 
 
 /* 03.4 Section Menu */
-.categories li { margin: 0 5px; }
+.categories li { margin: 6px; }
 .categories a {
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
