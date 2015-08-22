@@ -184,6 +184,9 @@ textarea { min-height: 120px }
 
 
 /* 03.2 Section About */
+.section-about {
+	padding: 100px 0;
+}
 .section-about h3 {
 	font-family: 'Merriweather', "Times New Roman", Times, serif;
 	font-size: 48px;
@@ -254,6 +257,9 @@ textarea { min-height: 120px }
 
 
 /* 03.4 Section Menu */
+.section-menu {
+	padding: 100px 0px 60px;
+}
 .category-content {
 	padding-left: 5%;
 	padding-right: 5%;
@@ -354,9 +360,6 @@ textarea { min-height: 120px }
 
 
 /* 03.6 Testimonials */
-.section-testimonials {
-	padding-top: 0;
-}
 .quote {
 	font-family: 'Merriweather', "Times New Roman", Times, serif;
 	font-size: 20px;
